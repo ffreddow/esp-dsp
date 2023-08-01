@@ -31,7 +31,7 @@ set(srcs            "modules/common/misc/dsps_pwroftwo.cpp"
                     "modules/dotprod/fixed/dspi_dotprod_u8_aes3.S"
                     "modules/dotprod/fixed/dspi_dotprod_off_u8_aes3.S"
                     "modules/dotprod/fixed/dspi_dotprod_off_s8_aes3.S"
-                    
+
 
                     "modules/matrix/float/dspm_mult_3x3x1_f32_ae32.S"
                     "modules/matrix/float/dspm_mult_3x3x3_f32_ae32.S"
@@ -75,14 +75,14 @@ set(srcs            "modules/common/misc/dsps_pwroftwo.cpp"
                     "modules/fft/fixed/dsps_fft2r_sc16_ae32.S"
                     "modules/fft/fixed/dsps_fft2r_sc16_ansi.c"
                     "modules/fft/fixed/dsps_fft2r_sc16_aes3.S"
-                    
+
                     "modules/dct/float/dsps_dct_f32.c"
                     "modules/support/snr/float/dsps_snr_f32.cpp"
                     "modules/support/sfdr/float/dsps_sfdr_f32.cpp"
                     "modules/support/misc/dsps_d_gen.c"
-                    "modules/support/misc/dsps_h_gen.c"     
+                    "modules/support/misc/dsps_h_gen.c"
                     "modules/support/misc/dsps_tone_gen.c"
-                    "modules/support/cplx_gen/dsps_cplx_gen.c"
+                    # "modules/support/cplx_gen/dsps_cplx_gen.c"
                     "modules/support/cplx_gen/dsps_cplx_gen.S"
                     "modules/support/cplx_gen/dsps_cplx_gen_init.c"
                     "modules/support/mem/esp32s3/dsps_memset_aes3.S"
